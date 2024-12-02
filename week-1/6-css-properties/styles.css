@@ -17,3 +17,7 @@ a {
 .message__time--old {
   opacity: 0.2;
 }
+
+div .messages {
+  line-height: 2.1;
+}
