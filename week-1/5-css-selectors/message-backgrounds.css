@@ -1,1 +1,10 @@
 /* Add your CSS code below */
+#first-message {
+  background-color: rgba(255, 0, 0, 0.349);
+}
+article {
+  background-color: cadetblue;
+}
+.message--latest {
+  background-color: rgba(255, 255, 0, 0.326);
+}
