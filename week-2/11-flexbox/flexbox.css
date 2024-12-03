@@ -1,1 +1,21 @@
 /* Add your own CSS code below */
+/* General rule: Make the container a flexbox */
+.countries {
+  font-weight: bold;
+  display: flex;
+}
+
+/* First list: Default flex-direction (row) */
+.countries--first {
+  flex-direction: row-reverse; /* Items displayed in a row *, reversed */
+}
+
+/* Second list: Column layout */
+.countries--second {
+  flex-direction: column; /* Items displayed in a column */
+}
+
+/* Third list: Reverse the row */
+.countries--third {
+  flex-direction: column-reverse; /* Items displayed in a column, reversed */
+}

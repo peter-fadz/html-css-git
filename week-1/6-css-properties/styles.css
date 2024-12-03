@@ -1,1 +1,26 @@
-/* Add your CSS code below */
+/* General styles for messages */
+.messages__time {
+  font-size: 0.9rem; /* Increase the font size of the message */
+  line-height: 1.6; /* Increase the space between each line in a message */
+}
+
+.message__content {
+  margin-bottom: 15px; /* Add some margin between messages */
+}
+
+/* Style for links inside messages */
+.message__content .link {
+  color: red; /* Make the links red */
+  font-weight: bold; /* Make the links bold */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Style for yesterday's message (old messages) */
+.message__time--old {
+  opacity: 0.5; /* Make yesterday's message partially transparent */
+}
+
+/* Style for unread messages */
+.message--unread {
+  border-left: 3px solid blue; /* Put a blue border on the left side of the unread message */
+}

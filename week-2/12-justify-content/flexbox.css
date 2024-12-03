@@ -7,3 +7,24 @@
 }
 
 /* Add your own CSS code below */
+.countries {
+  width: 500px; /* Set a fixed width */
+  margin: 0 auto; /* Center the container horizontally */
+}
+.countries--first {
+  justify-content: end;
+}
+.countries--second {
+  flex-direction: row; /* Already set */
+  justify-content: space-between; /* Add this line */
+}
+
+.countries--third {
+  flex-direction: column;
+  justify-content: end;
+}
+
+.countries--fourth {
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}

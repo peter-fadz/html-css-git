@@ -2,3 +2,30 @@
   display: flex;
 }
 /* Add your own CSS code below */
+
+.countries {
+  width: 500px; /* Set a fixed width */
+  margin: 0 auto; /* Center the container horizontally */
+}
+.countries--first {
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.countries--second {
+  flex-direction: row-reverse; /* Already set */
+  justify-content: end;
+  align-items: end;
+}
+
+.countries--third {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.countries--fourth {
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: center;
+}

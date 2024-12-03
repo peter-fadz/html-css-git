@@ -1,6 +1,23 @@
 /* Try different box model properties below */
 .pages__page {
-  border: 1px solid #4491db;
-  border-radius: 4px;
+  border: 2px solid #4491db;
+  border-radius: 5px;
   background: #fff;
+}
+* {
+  border: 1px solid red;
+}
+/* Style each country item */
+.country {
+  padding: 10px; /* Space inside each item */
+  margin: 10px 0; /* Space between items (top and bottom) */
+  border: 1px solid #ccc; /* Light border for separation */
+  background-color: #f9f9f9; /* Light gray background for better visibility */
+  border-radius: 10px; /* Optional: Rounded corners for aesthetics */
+}
+.pages__showing {
+  display: inline-block; /* Ensures it behaves like inline text */
+  margin-top: -14px; /* Adjust upward (negative value) */
+  font-size: 14px; /* Optional: Adjust text size for better fit */
+  color: #333; /* Optional: Ensure text color is consistent */
 }

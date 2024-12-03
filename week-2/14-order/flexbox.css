@@ -3,3 +3,47 @@
 }
 
 /* Add your own CSS code below */
+.countries {
+  width: 500px;
+}
+.countries--first .country:nth-child(1) {
+  order: 5;
+}
+
+.countries--first .country:nth-child(2) {
+  order: 1;
+}
+
+.countries--first .country:nth-child(3) {
+  order: 2;
+}
+.countries--first .country:nth-child(4) {
+  order: 3;
+}
+
+.countries--first .country:nth-child(5) {
+  order: 4;
+}
+
+.countries--second .country:nth-child(1) {
+  order: 4;
+}
+
+.countries--second .country:nth-child(2) {
+  order: 1;
+}
+
+.countries--second .country:nth-child(3) {
+  order: 2;
+}
+.countries--second .country:nth-child(4) {
+  order: 3;
+}
+
+.countries--second .country:nth-child(5) {
+  order: 5;
+}
+.countries--third {
+  justify-content: start;
+  flex-direction: row-reverse;
+}
