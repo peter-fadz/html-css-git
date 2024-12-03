@@ -1,1 +1,20 @@
 /* Add your own CSS code below */
+/* Default style for the list (single column) */
+.countries {
+  columns: 1;
+  column-gap: 20px; /* Adjust spacing between columns if needed */
+}
+
+/* Media query for screens wider than 768px */
+@media (min-width: 768px) {
+  .countries {
+    columns: 2; /* Display in two columns */
+  }
+}
+
+/* Media query for screens wider than 1200px */
+@media (min-width: 1200px) {
+  .countries {
+    columns: 3; /* Display in three columns */
+  }
+}
