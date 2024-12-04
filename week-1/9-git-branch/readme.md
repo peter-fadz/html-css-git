@@ -65,7 +65,7 @@ Enter the following command to make sure you are on the `master` branch:
 git checkout master
 ```
 
-Now check out a new branch for your green links. You learned how to create a new branch above. Use the same command, but use the branch name `green_links` instead.
+Now check out a new branch for your green links. You learned how to create a new branch above. Use the same command, but use the branch name `~~green_links~~` instead.
 
 When you have created a new branch, enter the following command:
 
