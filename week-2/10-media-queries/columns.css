@@ -1,1 +1,23 @@
 /* Add your own CSS code below */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .countries {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .country {
+    width: 46%;
+  }
+}
+@media (min-width: 1200px) {
+  .countries {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .country {
+    width: 28%;
+  }
+}
