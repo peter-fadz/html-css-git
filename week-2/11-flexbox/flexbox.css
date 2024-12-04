@@ -1,1 +1,10 @@
 /* Add your own CSS code below */
+.countries {
+  display: flex;
+  flex-direction: column;
+}
+.countries--first {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
