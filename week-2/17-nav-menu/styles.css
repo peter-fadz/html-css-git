@@ -1,1 +1,23 @@
 /* Write your media queries and flexbox CSS below */
+
+@media (min-width: 480px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+  nav {
+    display: flex;
+  }
+}
+@media (min-width: 700px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav {
+    display: flex;
+  }
+}
