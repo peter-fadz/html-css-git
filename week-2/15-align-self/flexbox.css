@@ -3,3 +3,15 @@
 }
 
 /* Add your own CSS code below */
+.countries--first country--ethiopia {
+  align-self: self-end;
+}
+
+.countries--second {
+  align-items: center;
+}
+
+.countries--second,
+country--ethiopia {
+  align-self: end;
+}
