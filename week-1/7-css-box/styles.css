@@ -1,6 +1,38 @@
 /* Try different box model properties below */
 .pages__page {
-  border: 1px solid #4491db;
+  border: 2px solid #4491db;
   border-radius: 4px;
   background: #fff;
+}
+.country {
+  height: auto;
+  margin: 2px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.pages__page {
+  height: 2px;
+  margin: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  margin-right: 5px;
+  padding: auto;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.pages__showing {
+  margin-left: 1px;
+  margin-right: 20px;
+  padding: 0;
+}
+.pages {
+  margin: 3px;
+  margin-top: 10px;
+  padding: 3px;
+  padding-top: 3px;
+  padding-bottom: 8px;
 }
