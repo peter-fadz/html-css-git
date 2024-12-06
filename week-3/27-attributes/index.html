@@ -42,7 +42,7 @@
               <legend>Billing Address</legend>
               <p>
                 <label for="billing-address-1">Address Line 1</label>
-                <input type="text" name="billing-address-1" id="billing-address-1" required/>
+                <input type="text" name="billing-address-1" id="billing-address-1" required />
               </p>
               <p>
                 <label for="billing-address-2">Address Line 2</label>
@@ -54,14 +54,15 @@
               </p>
               <p>
                 <label for="billing-city">City</label>
-                <input type="text" name="billing-city" id="billing-city" required/>
+                <input type="text" name="billing-city" id="billing-city" required />
               </p>
             </fieldset>
+
             <fieldset>
               <legend>Delivery Address</legend>
               <p>
                 <label for="delivery-address-1">Address Line 1</label>
-                <input type="text" name="delivery-address-1" id="delivery-address-1" required/>
+                <input type="text" name="delivery-address-1" id="delivery-address-1" required />
               </p>
               <p>
                 <label for="delivery-address-2">Address Line 2</label>
@@ -78,29 +79,39 @@
               </p>
               <p>
                 <label for="delivery-address-city">City</label>
-                <input type="text" name="delivery-address-city" id="delivery-address-city" required/>
+                <input
+                  type="text"
+                  name="delivery-address-city"
+                  id="delivery-address-city"
+                  required
+                />
               </p>
               <p>
                 <label for="delivery-country">Country</label>
-                <input type="text" name="delivery-country" 
-                id="delivery-country" required value="United Kingdom" readonly/>
+                <input
+                  type="text"
+                  name="delivery-country"
+                  id="delivery-country"
+                  required
+                  value="United Kingdom"
+                  readonly
+                />
               </p>
             </fieldset>
 
-              <fieldset>
-                <legend>Delivery Options</legend>
-                <label>
-                  <input
-                    type="radio"
-                    name="delivery-option"
-                    id="delivery-option"
-                    value="standard"
-                    checked
-                    disabled
-                  />
-                  Royal Mail
-                </label>
-              </fieldset>
+            <fieldset>
+              <legend>Delivery Options</legend>
+              <label>
+                <input
+                  type="radio"
+                  name="delivery-option"
+                  id="delivery-option"
+                  value="standard"
+                  checked
+                  disabled
+                />
+                Royal Mail
+              </label>
             </fieldset>
 
             <button type="submit">Complete Purchase</button>
