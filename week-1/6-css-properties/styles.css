@@ -1,1 +1,30 @@
 /* Add your CSS code below */
+.link link--map {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link link--gif {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.message__time {
+  font-size: 0.9rem;
+}
+
+.message__time message__time--old {
+  font-size: 0.9rem;
+}
+
+.message message--unread {
+  border-left: 4px solid blue;
+  padding-left: 10px;
+}
+
+.message {
+  opacity: 0.6;
+  line-height: 1.8;
+}
