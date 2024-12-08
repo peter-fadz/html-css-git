@@ -1,1 +1,21 @@
 /* Add your own CSS code below */
+.container {
+  display: flex;
+}
+.countries--first {
+  display: flex;
+  flex-direction: row-reverse; /* Ensures the list items are in a row */
+  width: fit-content;
+  padding-left: 100px;
+}
+.countries--second {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.countries--third {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 20%;
+}

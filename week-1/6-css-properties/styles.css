@@ -1,1 +1,18 @@
 /* Add your CSS code below */
+a {
+  color: red; /* Sets the text color to red */
+  font-weight: bold; /* Makes the text bold */
+  text-decoration: none; /* Removes the underline */
+}
+.message__time {
+  font-size: 0.9rem;
+}
+.message--unread {
+  border-left: 4px solid blue; /* Blue border on the left */
+}
+.message__time--old {
+  opacity: 0.5; /* Make text partially transparent */
+}
+.message__content {
+  line-height: 2; /* Increase line height for better readability */
+}

@@ -1,1 +1,65 @@
 /* Write your media queries and flexbox CSS below */
+.site-wrapper {
+  display: flex;
+}
+.site-header {
+  display: flex;
+  flex-direction: column;
+}
+.site-header__checkout {
+  width: fit-content;
+}
+@media only screen and (min-width: 480px) {
+  .site-header__nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .site-header__checkout {
+    display: flex;
+    align-items: flex-start;
+    width: fit-content;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 992px) {
+  .site-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .site-header__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .site-header__checkout {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .site-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .site-header__nav {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+  }
+
+  .site-header__checkout {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: flex-end;
+  }
+}
